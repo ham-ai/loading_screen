@@ -51,6 +51,7 @@ body{
     animation-delay: 1s;
     margin-top: 4rem;
     margin-left: 4rem;
+    animation-iteration-count: infinite;
 }
 
 .bola2{
@@ -64,6 +65,7 @@ body{
     animation-delay: 1s;
     margin-top: 4rem;
     margin-right: 4rem;
+    animation-iteration-count: infinite;
 }
 
 .bola3{
@@ -77,6 +79,7 @@ body{
     animation-delay: 1s;
     margin-bottom: 4rem;
     margin-left: 4rem;
+    animation-iteration-count: infinite;
 }
 
 .bola4{
@@ -90,6 +93,7 @@ body{
     animation-delay: 1s;
     margin-bottom: 4rem;
     margin-right: 4rem;
+    animation-iteration-count: infinite;
 }
 
 /* animações */
