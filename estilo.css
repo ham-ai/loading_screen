@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caixa{
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cx1{
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.cx2{
+    display: flex;
+    width: 20rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* bolas */
+
+.bola1{
+    background-color: violet;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    position: relative;
+    animation-name: b1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.bola2{
+    background-color: rgb(130, 238, 166);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    position: relative;
+    animation-name: b2;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    margin-top: 4rem;
+    margin-right: 4rem;
+}
+
+.bola3{
+    background-color: rgb(130, 198, 238);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    position: relative;
+    animation-name: b3;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+}
+
+.bola4{
+    background-color: rgb(241, 225, 132);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    position: relative;
+    animation-name: b4;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
+}
+
+/* animações */
+
+@keyframes b1{
+    0%{left: 0rem; top: 0rem;}
+    25%{left: 6rem; top: 7rem;}
+    50%{left: 0rem; top: 7rem;}
+    75%{left: 6rem; top: 0rem;}
+    100%{left: 0rem; top: 0rem;}
+}
+
+@keyframes b2{
+    0%{right: 0rem; top: 0rem;}
+    25%{right: 6rem; top: 7rem;}
+    50%{right: 0rem; top: 7rem;}
+    75%{right: 6rem; top: 0rem;}
+    100%{right: 0rem; top: 0rem;}
+}
+
+@keyframes b3{
+    0%{right: 0rem; top: 0rem;}
+    25%{right: -6rem; top: -7rem;}
+    50%{top: -7rem; right: 0rem;}
+    75%{top: 0rem; right: -6rem;}
+    100%{right: 0rem; top: 0rem;}
+}
+
+@keyframes b4{
+    0%{right: 0rem; top: 0rem;}
+    25%{right: 6rem; top: -7rem;}
+    50%{top: -7rem; right: 0rem;}
+    75%{top: 0rem; right: 6rem;}
+    100%{right: 0rem; top: 0rem;}
+}
